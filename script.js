@@ -3,6 +3,7 @@ let add = document.getElementById("add");
 let subadd = document.getElementById("subadd");
 let items = document.querySelector("#items");
 let buttonList = document.querySelectorAll("button");
+ document.getElementById("main-header").style.backgroundColor = "red";
 
 subadd.addEventListener("click", (e) => {
   e.preventDefault();
