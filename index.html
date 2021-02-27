@@ -12,8 +12,8 @@
     />
     <title>TodoList</title>
   </head>
-  <body>
-    <header id="main-header" class="bg-success text-white p-4 mb-3">
+  <body class="bg-secondary">
+    <header id="main-header" class="bg-dark text-white p-4 mb-3">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -26,21 +26,25 @@
         </div>
       </div>
     </header>
-    <div class="container">
+    <div class="container text-white">
       <h2>Add Items</h2>
       <form id="addform" class="form-inline mb-3">
         <input
           type="text"
           id="add"
           class="form-control mr-3"
-          placeholder="Stay hydrated"
+          placeholder="Put Your Todo here"
         />
         <input type="submit" id="subadd" class="btn btn-dark" value="submit" />
       </form>
       <h2 class="title pt-4">Items</h2>
       <ul id="items" class="list-group">
-        <li class="list-group-item" style="margin-top: 40px" id="holder">
-          Your items will show here
+        <li
+          class="list-group-item text-dark"
+          style="margin-top: 40px"
+          id="holder"
+        >
+          Your Todos will show here
         </li>
       </ul>
     </div>
